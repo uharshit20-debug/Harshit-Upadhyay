@@ -31,3 +31,16 @@ h1 {
 li {
   margin: 6px 0;
 }
+
+
+.btn-download {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 26px;
+    border-radius: 30px;
+    background: #10b981; /* Green color for download */
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
