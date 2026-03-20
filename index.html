@@ -41,13 +41,14 @@
   <a href="https://linkedin.com/in/harshitupadhyay" target="_blank">linkedin.com/in/harshitupadhyay</a>
 </p>
     <div class="btns">
+     
   <a href="#projects">View Projects</a>
- <a href="Harshit_Upadhyay-Software-Engineer.pdf"
-       download="Harshit_Upadhyay_Resume.pdf"
-       class="btn-download">
-       Download Resume
-    </a>
+<a href="Harshit_Upadhyay-Software-Engineer.pdf" download="Harshit_Upadhyay_Resume.pdf" class="btn-download">
+   Download Resume
+</a>
   <a href="#contact">Contact Me</a>
+
+  
 </div>
     </div>
   </div>
@@ -156,12 +157,38 @@ seamless, bug-free user experience
 
  
 </section>
-<section id="contact">
+<!-- <section id="contact">
   <h2>Contact</h2>
   <div style="text-align:center">
     <p>Email: uharshit20@gmail.com</p>
     <p>Phone: +91 7456887635</p>
     <p>Open to QA / Automation Testing opportunities</p>
+  </div>
+</section> -->
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div style="max-width: 600px; margin: auto; background: #020617; padding: 30px; border-radius: 15px;">
+    
+    <form id="contact-form" action="https://formspree.io/f/xojkbnjw" method="POST">
+      <div style="margin-bottom: 15px;">
+        <input type="text" name="name" placeholder="Aapka Naam" required style="width: 100%; padding: 12px; border-radius: 8px; border: none; background: #1e293b; color: white;">
+      </div>
+      <div style="margin-bottom: 15px;">
+        <input type="email" name="_replyto" placeholder="Aapki Email" required style="width: 100%; padding: 12px; border-radius: 8px; border: none; background: #1e293b; color: white;">
+      </div>
+      <div style="margin-bottom: 15px;">
+        <textarea name="message" rows="4" placeholder="Aapka Message" required style="width: 100%; padding: 12px; border-radius: 8px; border: none; background: #1e293b; color: white;"></textarea>
+      </div>
+      <button type="submit" id="submit-btn" style="width: 100%; padding: 12px; border-radius: 30px; border: none; background: #38bdf8; color: #020617; font-weight: bold; cursor: pointer;">
+        Message Bhejein
+      </button>
+    </form>
+    
+    <p id="response-msg" style="display:none; color: #10b981; text-align: center; margin-top: 15px; font-weight: bold;">
+       ✅ Thank you! Aapka message mere paas pahunch gaya hai.
+    </p>
+
   </div>
 </section>
 
